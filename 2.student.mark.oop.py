@@ -1,6 +1,3 @@
-from time import time
-
-
 class student:
     def __init__(self,id, name, dob,mark):
        self.id=id
