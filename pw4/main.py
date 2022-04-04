@@ -25,9 +25,9 @@ aver_gpa()
 D.refresh()
 D.clear()
 
-D.addstr(0,5,"""your choice\n""")
-D.addstr(1,5,"1.check student mark")
-D.addstr(2,5,"2.no\n")
+D.addstr("your choice\n")
+D.addstr("1.check student mark")
+D.addstr("2.no\n")
        
 a = int(D.getstr().decode())
 if a == 1:
